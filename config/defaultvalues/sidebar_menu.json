@@ -1,0 +1,455 @@
+[
+  {
+    "type": "label",
+    "name": "dashboard",
+    "menu_list": [
+      {
+        "id": 1,
+        "api_group_name": "status_dashboard",
+        "name": "status_dashboard",
+        "children": [],
+        "link": "/dashboard"
+      },
+      {
+        "id": 2,
+        "api_group_name": "new_customer",
+        "name": "new_customer",
+        "children": [],
+        "link": "/CustomerAccount/create"
+      },
+      {
+        "id": 3,
+        "api_group_name": "new_sale",
+        "name": "new_sale",
+        "children": [],
+        "link": "/Subscriptions/create"
+      }
+    ]
+  },
+  {
+    "type": "label",
+    "name": "customer_management",
+    "menu_list": [
+      {
+        "id": 4,
+        "api_group_name": "customers",
+        "name": "customers",
+        "children": [],
+        "link": "/CustomerAccount/list"
+      },
+      {
+        "id": 5,
+        "api_group_name": "devices",
+        "name": "devices",
+        "children": [],
+        "link": "/Devices/list"
+      },
+      {
+        "id": 6,
+        "api_group_name": "remote_control",
+        "name": "remote_control",
+        "children": [],
+        "link": "/commands/create"
+      },
+      {
+        "id": 7,
+        "api_group_name": "banners",
+        "name": "banners",
+        "children": [],
+        "link": "/banners/create"
+      },
+      {
+        "id": 8,
+        "api_group_name": "notifications",
+        "name": "notifications",
+        "children": [
+          {
+            "name": "information_message",
+            "link": "/messages/list",
+            "id": 123
+          },
+          {
+            "name": "banners",
+            "link": "/ads/list",
+            "id": 124
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "label",
+    "name": "reports",
+    "menu_list": [
+      {
+        "id": 9,
+        "api_group_name": "subscription",
+        "name": "subscription",
+        "children": [],
+        "link": "/Subscriptions/list"
+      },
+      {
+        "id": 10,
+        "api_group_name": "device_reports",
+        "name": "active_device_reports",
+        "children": [],
+        "link": "/activeDevicesChart"
+      },
+      {
+        "id": 11,
+        "api_group_name": "sale_reports",
+        "name": "sale_reports",
+        "children": [
+          {
+            "id": 125,
+            "name": "subscription_activation",
+            "link": "/Salesreports/list"
+          },
+          {
+            "id": 126,
+            "name": "product_sales",
+            "link": "/sales_by_product/list"
+          },
+          {
+            "id": 127,
+            "name": "subscriptions_by_day",
+            "link": "/sales_by_date/list"
+          },
+          {
+            "id": 128,
+            "name": "activations_by_month",
+            "link": "/sales_by_month/list"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "api_group_name": "expiration_reports",
+        "name": "expiration_reports",
+        "children": [
+          {
+            "id": 129,
+            "name": "expiration_by_month",
+            "link": "/sales_monthly_expiration/list"
+          },
+          {
+            "id": 130,
+            "name": "expiration_list",
+            "link": "/sales_by_expiration/list"
+          },
+          {
+            "id": 140,
+            "name": "expirations_next_30_days",
+            "link": "/sales_by_expiration/list?search=%7B%22next%22:%2230%22%7D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "label",
+    "name": "content_management",
+    "menu_list": [
+      {
+        "id": 14,
+        "api_group_name": "live_tv_channels",
+        "name": "live_tv_channels",
+        "children": [
+          {
+            "id": 141,
+            "name": "categories_slash_genres",
+            "link": "/Genres/list"
+          },
+          {
+            "id": 142,
+            "name": "channels_and_streams",
+            "link": "/Channels/list"
+          },
+          {
+            "id": 143,
+            "name": "not_active_channels",
+            "link": "/Channels/list?search=%7B%22isavailable%22:false%7D"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "api_group_name": "vod_content",
+        "name": "vod_content",
+        "children": [
+          {
+            "id": 144,
+            "name": "channels_and_streams",
+            "link": "/VodCategories/list"
+          },
+          {
+            "id": 145,
+            "name": "videos_and_streams",
+            "link": "/Vods/list?search=%7B%22pin_protected%22:0%7D"
+          },
+          {
+            "id": 146,
+            "name": "vod_menu",
+            "link": "/vodMenu/list"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "api_group_name": "tv_shows",
+        "name": "tv_shows",
+        "children": [
+          {
+            "id": 145,
+            "name": "categories_slash_genres",
+            "link": "/VodCategories/list"
+          },
+          {
+            "id": 146,
+            "name": "serials",
+            "link": "/Series/list"
+          },
+          {
+            "id": 147,
+            "name": "seasons",
+            "link": "/Season/list"
+          },
+          {
+            "id": 148,
+            "name": "episodes",
+            "link": "/VodEpisode/list"
+          }
+        ]
+      },
+      {
+        "id":17,
+        "api_group_name": "epg_data",
+        "name": "epg_data",
+        "children": [
+          {
+            "id": 149,
+            "name": "list",
+            "link": "/EpgData/list"
+          },
+          {
+            "id": 150,
+            "name": "graph",
+            "link": "/epggraph"
+          }
+        ]
+      },
+      {
+        "id":18,
+        "api_group_name": "import_data",
+        "name": "import_data",
+        "children": [
+          {
+            "id": 151,
+            "name": "epg_import",
+            "link": "/epgimport/create"
+          },
+          {
+            "id": 152,
+            "name": "live_tv_channels_in_csv_m3u",
+            "link": "/import_channel/create"
+          },
+          {
+            "id": 153,
+            "name": "vod_in_csv",
+            "link": "/import_vod/create"
+          },
+          {
+            "id": 154,
+            "name": "import_movies_from_tmdb",
+            "link": "/tmdbvods/list?search=%7B%22q%22:%22titanic%22%7D"
+          },
+          {
+            "id": 155,
+            "name": "import_tv_shows_from_tmdb",
+            "link": "/tmdbseries/list?search=%7B%22q%22:%22Stranger%20Things%22%7D"
+          },
+          {
+            "id": 156,
+            "name": "import_subtitles_open_subtitles",
+            "link": "/subtitlesImport/list?search=%7B%22query%22:%22Stranger%20Things%22%7D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "label",
+    "name": "settings",
+    "menu_list": [
+      {
+        "id":19,
+        "api_group_name": "plans_and_packages",
+        "name": "plans_and_packages",
+        "children": [
+          {
+            "id": 157,
+            "name": "plans",
+            "link": "/Combos/list"
+          },
+          {
+            "id": 158,
+            "name": "live_tv_packages",
+            "link": "/livepackages/list"
+          },
+          {
+            "id": 159,
+            "name": "vod_packages",
+            "link": "/vodPackages/list"
+          }
+        ]
+      },
+      {
+        "id":20,
+        "api_group_name": "system_configurations",
+        "name": "system_configurations",
+        "children": [
+          {
+            "id": 160,
+            "name": "company_settings",
+            "link": "/Settings/edit/1"
+          },
+          {
+            "id": 161,
+            "name": "player_settings",
+            "link": "/PlayerSettings/edit/1"
+          },
+          {
+            "id": 162,
+            "name": "urls",
+            "link": "/URL/edit/1"
+          },
+          {
+            "id": 163,
+            "name": "api_keys",
+            "link": "/ApiKeys/edit/1"
+          },
+          {
+            "id": 164,
+            "name": "advanced_settings",
+            "children": [],
+            "link": "/AdvancedSettings"
+          },
+          {
+            "id": 165,
+            "name": "geo_ip",
+            "children": [],
+            "link": "/geoip"
+          },
+          {
+            "id": 166,
+            "name": "webhooks",
+            "children": [],
+            "link": "/Webhooks/create"
+          }
+        ]
+      },
+      {
+        "id":21,
+        "api_group_name": "branding",
+        "name": "appearance_slash_branding",
+        "children": [
+          {
+            "id": 167,
+            "name": "main_menu",
+            "children": [],
+            "link": "/DeviceMenus/list"
+          },
+          {
+            "id": 168,
+            "name": "logos_and_images",
+            "children": [],
+            "link": "/ImagesSettings/edit/1"
+          },
+          {
+            "id": 169,
+            "name": "html_content",
+            "children": [],
+            "link": "/htmlContent/list"
+          },
+          {
+            "id": 170,
+            "name": "email_templates",
+            "children": [],
+            "link": "/EmailTemplate/list"
+          }
+        ]
+      },
+      {
+        "id":22,
+        "api_group_name": "stream_sources",
+        "name": "stream_sources",
+        "children": [
+          {
+            "id": 171,
+            "name": "live_tv_stream_sources",
+            "children": [],
+            "link": "/ChannelStreamSources/list"
+          },
+          {
+            "id": 172,
+            "name": "vod_stream_sources",
+            "children": [],
+            "link": "/VodStreamSources/list"
+          }
+        ]
+      },
+      {
+        "id":23,
+        "api_group_name": "users_and_roles",
+        "name": "users_and_roles",
+        "children": [],
+        "link": "/Users/list"
+      },
+      {
+        "id":23,
+        "api_group_name": "sale_agents",
+        "name": "sale_agents",
+        "children": [],
+        "link": "/Users/list?search=%7B%22group_id%22:6%7D"
+      },
+      {
+        "id":25,
+        "api_group_name": "system_info",
+        "name": "system_info",
+        "children": [
+          {
+            "id": 173,
+            "name": "customer_group",
+            "children": [],
+            "link": "/CustomerGroups/list"
+          },
+          {
+            "id": 174,
+            "name": "app_management",
+            "children": [],
+            "link": "/appmanagement/list"
+          },
+          {
+            "id": 175,
+            "name": "app_group",
+            "link": "/appgroup/list",
+            "children": []
+          },
+          {
+            "id": 176,
+            "name": "audit_logs",
+            "children": [],
+            "link": "/logs/list"
+          }
+        ]
+      },
+      {
+        "id":26,
+        "api_group_name": "support",
+        "name": "support",
+        "children": [],
+        "link": "/support"
+      }
+    ]
+  }
+]

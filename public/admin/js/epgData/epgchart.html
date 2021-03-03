@@ -1,0 +1,12 @@
+<!--<vis-graph2d data="data" options="options"></vis-graph2d>-->
+<h3 style="padding: 20px">EPG TIMELINE</h3>
+<vis-timeline data="data_timeline" options="options" events="events"></vis-timeline>
+
+<div class="row" style="padding: 20px">
+    <p class="pull-left">Page: {{page + 1}} /  {{total_pages + 1}}</p>
+    <div class="btn-group inline pull-right">
+        <div class="btn btn-small" ng-disabled="!visiblePrevPageButton" ng-click="loadMore(false)">Previous Page</div>
+        <div class="btn btn-small" ng-disabled="!visibleNextPageButton" ng-click="loadMore(true)">Next Page</div>
+    </div>
+</div>
+

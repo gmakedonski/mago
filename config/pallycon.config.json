@@ -1,0 +1,11 @@
+{
+  "SITE_ID": "KMDK",
+  "AES256_IV": "0123456789abcdef",
+  "API_TYPE": "JSON",
+  "SITE_KEY": "",
+  "PACK_KEY": "",
+  "TEST_USERID": "",
+  "TEST_CID": "",
+  "TEST_STREAM": "",
+  "LIC_SERVER": "https://license.pallycon.com/ri/licenseManager.do"
+}

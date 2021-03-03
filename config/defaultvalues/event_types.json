@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "event_type": "add_user"
+  },
+  {
+    "id": 2,
+    "event_type": "update_user"
+  },
+  {
+    "id": 3,
+    "event_type": "add_subscription"
+  },
+  {
+    "id": 4,
+    "event_type": "cancel_subscription"
+  }]
+
+

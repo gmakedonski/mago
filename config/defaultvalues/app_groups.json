@@ -1,0 +1,56 @@
+[
+  {
+    "id":1,
+    "app_group_name":"large screen",
+    "app_id":1,
+    "app_group_id":1
+  },
+  {
+    "id":2,
+    "app_group_name":"small screen",
+    "app_id":2,
+    "app_group_id":2
+  },
+  {
+    "id":3,
+    "app_group_name":"small screen",
+    "app_id":3,
+    "app_group_id":2
+  },
+  {
+    "id":4,
+    "app_group_name":"large screen",
+    "app_id":4,
+    "app_group_id":1
+  },
+  {
+    "id":5,
+    "app_group_name":"large screen",
+    "app_id":5,
+    "app_group_id":1
+  },
+  {
+    "id":6,
+    "app_group_name":"large screen",
+    "app_id":6,
+    "app_group_id":1
+  },
+  {
+    "id":7,
+    "app_group_name":"large screen",
+    "app_id": 7,
+    "app_group_id":1
+  },
+  {
+    "id":8,
+    "app_group_name":"large screen",
+    "app_id": 8,
+    "app_group_id":1
+  },
+  {
+    "id":9,
+    "app_group_name":"large screen",
+    "app_id": 9,
+    "app_group_id":1
+  }
+]

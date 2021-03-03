@@ -1,0 +1,30 @@
+[
+    {
+        "type": "feed_tv_trending",
+        "title": "Live Now"
+    },
+    {
+        "type": "feed_tv_schedulable",
+        "title": "Coming Next"
+    },
+    {
+        "type": "feed_tv_channels",
+        "title": "TV Channels"
+    },
+    {
+        "type": "feed_movies_new_arrivals",
+        "title": "New Arrivals"
+    },
+    {
+        "type": "feed_movies_paused",
+        "title": "Continue Watching"
+    },
+    {
+        "type": "feed_movies",
+        "title": "Movies"
+    },
+    {
+        "type": "feed_movies_shows",
+        "title": "TV Shows"
+    }
+]
